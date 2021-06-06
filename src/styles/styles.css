@@ -1,0 +1,19 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
+} 
+
+ p{
+
+}
+
+.kurir{
+
+}
+
+.logo {
+    width: calc(8em + 1vw);
+}
