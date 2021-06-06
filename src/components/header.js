@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
       src="../images/logo.svg"
       formats={["AUTO", "WEBP", "AVIF"]}
       className="logo"
-      
+      alt="logo"
       /> 
   </header>
 )

@@ -57,7 +57,7 @@ import React, {useState, } from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-
+import "../styles/styles.css"
 const IndexPage = () => {
 
   const [value, setValue] = useState("");
@@ -69,20 +69,22 @@ const IndexPage = () => {
   return(
   <Layout>
   <Seo title="Home" />
-  <div className="hr"></div><p>Coming Soon</p>
-  <h1>Dapatkan berita ketika sudah kami sudah siap</h1>
+  <div className="comingSoon">
+    <div className="hr"></div><p>Coming Soon</p>
+  </div>
+  <h1 className="home-h1">Dapatkan berita ketika sudah kami sudah siap</h1>
         <form className="form">
           <input
             type="text"
             value={value}
             name="email"
             className="email"
-            placeholder="Your Email Address."
+            placeholder="Email Anda"
             onChange={handleChange}
           />
           <input
             type="submit"
-            value="Get Notified"
+            value="ingatkan"
             className="submit" />
         </form> 
 
