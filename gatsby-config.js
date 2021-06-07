@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Bonekurir`,
+    description: `membantu oran-orang mendapatkan makanan tanpa keluar rumah`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -28,9 +28,14 @@ module.exports = {
         icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://app.us6.list-manage.com/subscribe/post?u=c991f1ebcb9245e973f1f052c&amp;id=4121c10edf'
+      },
+    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
