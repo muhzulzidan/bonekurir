@@ -37,7 +37,7 @@ render(){
         <div className="comingSoon">
           <div className="hr"></div><p>Coming Soon</p>
         </div>
-        <h1 className="home-h1">Dapatkan berita ketika sudah kami sudah siap</h1>
+        <h1 className="home-h1">Dapatkan berita ketika kami sudah siap</h1>
         <form className="form" onSubmit={this._handleSubmit}>
           <input
             type="email"
