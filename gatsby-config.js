@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Bonekurir`,
-    description: `membantu oran-orang mendapatkan makanan tanpa keluar rumah`,
-    author: `@gatsbyjs`,
+    description: `membantu orang-orang mendapatkan makanan tanpa keluar rumah`,
+    author: `@bonekurir`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
